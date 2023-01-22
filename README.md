@@ -18,7 +18,7 @@ In order to run this, you'll need:
 After cloning this repository, run the following
 
 ```bash
-make setup dev
+make setup build dev
 ```
 
 This will install the NPM packages and start the application in development mode. Any changes made to the source
@@ -40,8 +40,8 @@ To build and launch the app in production mode, run:
 make build prod
 ```
 
-To launch the app in development mode with hot-reloading of souce files, run:
+To build and launch the app in development mode with hot-reloading of souce files, run:
 
 ```bash
-make dev
+make build dev
 ```
