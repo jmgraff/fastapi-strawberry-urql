@@ -9,6 +9,7 @@ https://codehammer.io/full-stack-graphql-example-fastapi-strawberry-and-urql
 
 In order to run this, you'll need:
  - Linux
+ - `make`
  - Docker with docker compose plugin
  - NodeJS and NPM
 
