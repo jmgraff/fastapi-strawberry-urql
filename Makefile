@@ -6,7 +6,7 @@ setup:
 	npm install && cd frontend && npm install
 
 build:
-	docker compose -f docker-compose.yaml -f docker-compose.build.yaml build
+	docker compose build
 
 dev:
 	PROD=0 docker compose -f docker-compose.yaml -f docker-compose.dev.yaml up
